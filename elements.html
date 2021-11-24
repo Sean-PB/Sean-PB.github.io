@@ -22,10 +22,10 @@
 						<h1>Welcome to my<br />
 						Portfolio!</h1>
 						<p>By Sean Brandon<br><br>
-							This is a showcase of my projects and abilities!<br>
-						There are two tabs to choose from. The first being a collection of all my video game projects and the second being a collection of more general 
-						software and coding projects. For each project there is a button that links to the code (posted on GitHub) and for some of the publised projects you can
-						click on either the picture or the title to view the finished product.</p>
+							This is a showcase of some of my projects and abilities!<br>
+						There are two tabs to choose from. The first being a collection of some of my more notable video game projects and the second being a collection of more general
+						software and coding projects. For the published projects you can click on either the picture or the title to view the finished product. Otherwise, the title / 
+						picture will link to more info.</p>
 					</div>
 
 				<!-- Nav -->
@@ -47,10 +47,14 @@
 							<section class="posts">
 								<article>
 									<header>
-										<h2><a href="MoveiCatalog.html">MovieCatalog</a></h2>
+										<h2><a href="MoveiCatalog.html">Movie Catalog</a></h2>
 									</header>
-										<a href="MoveiCatalog.html" class="image fit"><img src="images/MovieCatalog/MovieCatalog.png"/></a>
-									<p>Paragraph about Movie Catalog.</p>
+										<a href="MoveiCatalog.html"><img src="images/MovieCatalog/MovieCatalog.png"
+											width=300
+											height=300
+											></a>
+									<p>This is a movie cataloging app that I built with android studio. It's main function is to allow you to log what movies you have seen or want to see in
+										a simple, organized, and easy to use lists that can be added to with ease.</p>
 									<ul class="actions special">
 										<li><a href="https://github.com/Sean-PB/PersonalProjects/tree/master/AndroidStudioProjects/MovieCatalog/app/src/main/java/com/example/moviecatalog" class="button">Code</a></li>
 									</ul>
@@ -60,31 +64,43 @@
 										<h2>Calculator App</h2>
 									</header>
 									<img src="images/Calculator.jpg" alt="" 
-										width="125"
-										height="250"/>
-									<p>Paragraph about Calculator.</p>
+										width="150"
+										height="300"/>
+									<p>This Calculator app was my first dabble in creating apps myself using Android Studio. My dad complained to me that there was no memory button on the default
+										calculator that came with his phone so I decided to make one that he could use.
+									</p>
 									<ul class="actions special">
-										<li><a href="#" class="button">Code</a></li>
+										<li><a href="https://github.com/Sean-PB/PersonalProjects/blob/master/AndroidStudioProjects/Calculator/app/src/main/java/com/example/tutorial/MainActivity.java" class="button">Code</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
-										<h2>School Project 1</h2>
+										<h2><a><a href="BigInt.html">Big integer adt in c++</a></h2>
 									</header>
-									<a class="image fit"><img src="images/ColorDungeon.JPG" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<a href="BigInt.html" class="image fit"><img src="images/BigInt.jpg" alt="" /></a>
+									<p>In this school assignment I was tasked with creating a Big Integer abstract data type using C++ that was capable of performing arithmetic operations on arbitrarily
+										large signed integers. To accomplish this I had to use a List of longs. The challenging aspect of this assignment was not creating the Big Integer data type itself,
+										but making arithmetic functions (such as addition, subtraction, multiplication, and division) that would work with this signed Big Integer ADT.
+									</p>
 									<ul class="actions special">
-										<li><a href="#" class="button">Code</a></li>
+										<li><a href="https://github.com/Sean-PB/SchoolProjects/tree/main/CSE%20101/pa5" class="button">Code</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
-										<h2>School Project 2</h2>
+										<h2><a href="RedQueen.html">Bloom Filters, Hashing, and the Red Queen’s Decree</a></h2>
 									</header>
-									<a class="image fit"><img src="images/CureOfTheUndead.JPG" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<a href="RedQueen.html" class= "image fit"><img src="images/RedQueenHash.png" alt="" /></a>
+									<p>In this themed school project I use a Bloom filter and hash table to store outlawed words (a hash will be
+										used to store these words in the Bloom filter and hash table) given to me in .txt files. I check the
+										user input against these stored words to determine the severity of their mistakes in their
+										language. First checking the bloom filter (because it is faster) then if I get a match in the Bloom
+										filter I check in the hash table (because sometimes the bloom filter gives false positives). If they
+										used a word that is in the hashtable it has been outlawed. However, depending on the word it
+										might have a translation and only need a warning. If there is no translation though, they will be
+										"sent away to the dungeon".</p>
 									<ul class="actions special">
-										<li><a href="#" class="button">Code</a></li>
+										<li><a href="https://github.com/Sean-PB/SchoolProjects/tree/main/CSE%2013s/asgn6" class="button">Code</a></li>
 									</ul>
 								</article>
 							</section>
